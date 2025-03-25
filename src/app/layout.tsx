@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Pirata_One } from "next/font/google";
+import { Montserrat, Pirata_One } from "next/font/google";
 
 import "./globals.css";
 
@@ -7,6 +7,11 @@ const pirataOne = Pirata_One({
   subsets: ["latin"],
   weight: "400", 
   variable: "--font-pirata", 
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
 });
 
 
@@ -23,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${pirataOne.variable} font-sans antialiased `}
+        className={`${pirataOne.variable} ${montserrat.variable} font-sans antialiased `}
       >
          
         {children}
