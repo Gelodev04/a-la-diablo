@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Video = () => {
   return (
-    <div className=" max-w-[1000px] rounded overflow-hidden ">
+    <div className=" max-w-[1000px] rounded overflow-hidden shadow-2xl">
   <video
     autoPlay
     loop
