@@ -8,9 +8,12 @@ export const Video = () => {
     loop
     muted
     playsInline
+    preload='auto'
     className="w-full h-full object-contain"
+    poster="/images/logo.jpg"
   >
     <source src="/videos/hot-sauce.mp4" type="video/mp4" />
+    <source src="/videos/hot-sauce.webm" type="video/webm" />
     Your browser does not support the video tag.
   </video>
 </div>
