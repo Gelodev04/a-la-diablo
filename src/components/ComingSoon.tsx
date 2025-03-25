@@ -13,7 +13,7 @@ export default function ComingSoon() {
       >
         We are <span className="">Coming</span> Soon!
       </h1>
-      <p className="font-monserrat mb-5 text-[15px] ">Sign up to be the first to know when we launch!</p>
+      <p className="font-montserrat mb-5 text-[15px] ">Sign up to be the first to know when we launch!</p>
       <FormInput />
       
     </section>

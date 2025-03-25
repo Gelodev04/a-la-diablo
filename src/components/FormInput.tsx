@@ -2,7 +2,7 @@ import { SubmitButton } from "@/components/ui/SubmitButton";
 import { Checkbox } from "./ui/checkbox";
 export default function FormInput() {
   return (
-    <form className="flex flex-col font-monserrat">
+    <form className="flex flex-col font-montserrat">
       <label
         htmlFor="email"
         className="text-white mt-2 text-xs italic font-light"
