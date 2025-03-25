@@ -1,0 +1,6 @@
+// import { fetchMetaobjectImage } from "@/lib/shopify";
+ // const imageUrl = await fetchMetaobjectImage("website_content", "website-content-b51mjeos");
+// <main>
+    //   <h1>Logo Image</h1>
+    //   {imageUrl ? <I src={imageUrl} alt="Logo" width={200} /> : <p>No image found</p>}
+    // </main>
