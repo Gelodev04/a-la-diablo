@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -8,6 +9,7 @@
 @theme {
   --font-pirata: Pirata, cursive;
   --font-inter: Inter, sans-serif;
+  --font-monserrat: Montserrat, sans-serif;
   --color-green: #0d741b;
 }
 
@@ -136,7 +138,7 @@ body{
 
 .animate-gradient {
   background-size: 200% 200%;
-  animation: gradientMove 4s infinite linear;
+  animation: gradientMove 3.5s infinite linear;
 }
 
 

@@ -8,12 +8,12 @@ export default function ComingSoon() {
       </h1> */}
         <h1 
         className="font-bold text-[5rem] font-pirata leading-tight 
-                   bg-gradient-to-r from-orange-500 via-[#ff1e00] to-orange-600
+                   bg-gradient-to-tr from-orange-500 via-[#ff1e00] to-[#ffbf00]
                    text-transparent bg-clip-text animate-gradient"
       >
         We are <span className="">Coming</span> Soon!
       </h1>
-      <p className="font-inter mb-5 text-[15px]">Sign up to be the first to know when we launch!</p>
+      <p className="font-monserrat mb-5 text-[15px] ">Sign up to be the first to know when we launch!</p>
       <FormInput />
       
     </section>
