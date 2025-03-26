@@ -54,11 +54,12 @@
 }
 
 
-body{
+body {
   background-image: url('/images/background2.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensures it doesn't scroll */
 }
 
 :root {

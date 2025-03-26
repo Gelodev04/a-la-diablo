@@ -6,13 +6,13 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <main className=' '>
+    <main className='pb-10'>
       <Navbar/>
-      <section className='flex '>
-        <div className='w-1/2  h-screen flex items-center justify-center pt-10 '>
+      <section className='flex flex-col-reverse lg:flex-row gap-10 lg:gap-5 lg:mt-10'>
+        <div className=' px-4 '>
         <ComingSoon/>
         </div>
-        <div className='w-2/3  h-screen flex items-center justify-center pt-10 px-5 '><Video/></div>
+        <div className='lg:mr-4 '><Video/></div>
       </section>
   
     </main>

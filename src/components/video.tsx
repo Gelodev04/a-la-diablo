@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Video = () => {
   return (
-    <div className=" max-w-[1000px] rounded overflow-hidden shadow-2xl">
+    <div className=" max-w-[900px] rounded overflow-hidden shadow-2xl mx-auto">
   <video
     autoPlay
     loop
@@ -10,7 +10,7 @@ export const Video = () => {
     playsInline
     preload='auto'
     className="w-full h-full object-contain"
-    poster="/images/logo.jpg"
+    poster="/images/logo.jpeg"
   >
     <source src="/videos/hot-sauce.mp4" type="video/mp4" />
     <source src="/videos/hot-sauce.webm" type="video/webm" />
